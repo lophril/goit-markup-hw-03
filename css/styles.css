@@ -30,7 +30,7 @@ a {
 }
 
 .header {
-    border-bottom: 1px solid #e3e9fc;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .container {
@@ -46,7 +46,6 @@ a {
 .nav-header {
     display: flex;
     align-items: center;
-    padding: 24px 0;
 }
 
 .logo {
@@ -65,6 +64,7 @@ a {
 }
 
 .nav-list {
+    padding: 24px 0;
     display: flex;
     gap: 40px;
     margin-right: 332px;
@@ -147,6 +147,20 @@ a {
 
 .resources-container {
     display: flex;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .resources-list {
@@ -309,3 +323,4 @@ a {
     color: #F4F4FD;
     letter-spacing: 0.02em
 }
+
