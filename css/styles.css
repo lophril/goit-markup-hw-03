@@ -4,6 +4,50 @@ body {
     color: #434455;
 }
 
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+header {
+    padding: 24px 0;
+    border-bottom: 1px solid #e3e9fc;
+}
+
+.container {
+    width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header-container {
+    display: flex;
+}
+
+.nav-header {
+    display: flex;
+}
+
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -16,6 +60,13 @@ body {
 
 .logo-item {
     color: #2e2f42;
+}
+
+.nav-list {
+    display: flex;
+    gap: 40px;
+    margin-left: 76px;
+    margin-right: 332px;
 }
 
 .page-nav .link {
@@ -31,17 +82,22 @@ body {
 }
 
 .address {
-    font-style: normal
+    font-style: normal;
 }
 
-.adress-list .link {
+.address-list {
+    display: flex;
+    gap: 40px;
+}
+
+.address-list-item .link {
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
-.adress-list .link:hover, .adress-list .link:focus {
+.address-list-item .link:hover, .address-list-item .link:focus {
     color: #404bbf;
 }
 
@@ -49,7 +105,15 @@ body {
     background-color: #2e2f42;
 }
 
+.hero-image-container {
+    padding: 188px 0;
+}
+
 .hero-image-item {
+    width: 496px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 48px;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
@@ -58,6 +122,10 @@ body {
 }
 
 .hero-image-button {
+    display: block;
+    padding: 16px 32px;
+    text-align: center;
+    margin: 0 auto;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -71,7 +139,26 @@ body {
     background-color: #404BBF;
 }
 
+.resources {
+    padding: 120px 0;
+}
+
+.resources-container {
+    display: flex;
+}
+
+.resources-list {
+    display: flex;
+    gap: 24px;
+}
+
+.resources-list-item {
+    width: calc(100% - 24px * 3);
+}
+
 .resources-item {
+    display: flex;
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -80,6 +167,7 @@ body {
 }
 
 .resources-goals {
+    display: flex;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -88,9 +176,15 @@ body {
 
 .team {
     background-color: #f4f4fd;
+    padding: 120px 0;
+}
+
+.team-container {
+    display: block;
 }
 
 .team-item {
+    margin-bottom: 72px;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
@@ -99,11 +193,21 @@ body {
     color: #2e2f42;
 }
 
+.team-list {
+    display: flex;
+    justify-content: space-between;
+}
+
 .team-list-item {
     background-color: #FFFFFF;
+    border-radius: 0 0 4px 4px;
+    padding: 0px 0px 32px 0px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    text-align: center;
 }
 
 .team-names {
+    margin-top: 32px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -112,13 +216,23 @@ body {
 }
 
 .team-descr {
+    margin-top: 8px;
     font-size: 16px;
     line-height: 1.5;
     color: #434455;
     letter-spacing: 0.02em
 }
 
-.portfolio-item {
+.portfolio {
+    padding: 120px 0;
+}
+
+.portfolio-container {
+    display: block;
+}
+
+.portfolio-name {
+    margin-bottom: 72px;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
@@ -127,7 +241,22 @@ body {
     color: #2e2f42;
 }
 
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.portfolio-item {
+    width: calc((100%- 24px *2)/3);
+    border-bottom: 1px solid #e3e9fc;
+}
+
 .portfolio-names {
+    margin-top: 32px;
+    margin-bottom: 8px;
+    margin-left: 16px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -136,6 +265,8 @@ body {
 }
 
 .portfolio-descr {
+    margin-left: 16px;
+    margin-bottom: 32px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -143,7 +274,12 @@ body {
 }
 
 footer {
-    background-color: #2e2f42;;
+    background-color: #2e2f42;
+    padding: 100px 0;
+}
+
+.footer-container {
+    display: block;
 }
 
 .logo-footer {
@@ -161,6 +297,9 @@ footer {
 }
 
 .footer-descr {
+    width: 266.12px;
+    font-weight: 400;
+    margin-top: 16px;
     font-size: 16px;
     line-height: 1.5;
     color: #F4F4FD;
