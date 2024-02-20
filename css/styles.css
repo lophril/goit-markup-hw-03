@@ -31,7 +31,6 @@ a {
 
 .header {
     border-bottom: 1px solid #e7e9fc;
-    padding: 24px 0;
 }
 
 .container {
@@ -66,6 +65,7 @@ a {
 
 .nav-list {
     display: flex;
+    padding: 24px 0;
     gap: 40px;
     margin-right: 332px;
 }
@@ -89,6 +89,7 @@ a {
 .address-list {
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
 
 .address-list-item .link {
