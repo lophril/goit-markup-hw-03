@@ -30,7 +30,6 @@ a {
 }
 
 .header {
-    padding: 24px 0;
     border-bottom: 1px solid #e7e9fc;
 }
 
@@ -68,6 +67,7 @@ a {
     display: flex;
     gap: 40px;
     margin-right: 332px;
+    padding: 24px 0;
 }
 
 .page-nav .link {
@@ -87,6 +87,7 @@ a {
 }
 
 .address-list {
+    padding: 24px 0;
     display: flex;
     gap: 40px;
 }
