@@ -67,6 +67,9 @@ a {
     display: flex;
     gap: 40px;
     margin-right: 332px;
+}
+
+.page-nav {
     padding: 24px 0;
 }
 
@@ -87,9 +90,9 @@ a {
 }
 
 .address-list {
-    padding: 24px 0;
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
 
 .address-list-item .link {
