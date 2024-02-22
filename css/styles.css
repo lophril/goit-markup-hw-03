@@ -41,6 +41,7 @@ a {
 
 .header-container {
     display: flex;
+    align-items: center;
 }
 
 .nav-header {
@@ -69,11 +70,9 @@ a {
     margin-right: 332px;
 }
 
-.page-nav {
-    padding: 24px 0;
-}
-
 .page-nav .link {
+    display: block;
+    padding: 24px 0;
     color: #2e2f42;
     font-weight: 500;
     font-size: 16px;
@@ -92,7 +91,6 @@ a {
 .address-list {
     display: flex;
     gap: 40px;
-    padding: 24px 0;
 }
 
 .address-list-item .link {
